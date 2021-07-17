@@ -1,168 +1,54 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url('img/hero.jpeg');
+    height: 400px;
+    background-size: cover;
+    border-radius: 15px;
+}
+.bg-heading{
+    font-size: 52px;
+    font-weight: 700;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ececec;
+.bg-padding{
+    padding-top:75px;
+    padding-left: 30px;
+}
+section{
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.product-container img{
+    height: auto;
+    width: 100%;
 
-  .layout{
-      padding-top: 1rem;
-      position: relative;
-      width: 250px;
-      height: 500px;
-      border-radius: 20px;
-      background-color: #111;
-      overflow: hidden;
-
-      .nav{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          margin-right: 1rem;
-          z-index: 99;
-
-
-          .spro{
-            z-index: 99;
-            .search{
-                width: auto;
-                height: 1rem;
-                margin-right: .8rem;
-                z-index: 99;
-            }
-
-            img{
-                height: 1rem;
-                width: auto;
-                border-radius: 1px;
-            }
-          }
-      }
-
-      .logo{
-          width: auto;
-          height: 30px;
-          z-index: 99;
-      }
-
-      .poster{
-          position: absolute;
-          top: -80px;
-          border-radius: 20px 20px 0 0;
-          height: 370px;
-          width: 250px;
-          background-image: url("https://i.ibb.co/DYpKQhL/9729d1d29d1a6cae70558b80f09c81c0a5-11-stranger-things-s2.jpg");
-          background-size: cover;
-          background-repeat: no-repeat;
-      }
-     
-      .options{
-        height: 231px;
-        position: absolute;
-        bottom: 0;
-        width: 250px;
-        background-image: linear-gradient(#000000de,10%, black);
-      }
-       
-    }
-
-
-    .catogery{
-        width: 250px;
-        padding: 1rem 2rem;
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-
-        h4{
-            font-weight: 400;
-            font-family: sans-serif;
-            color: #fff;
-            font-size: .7rem;
-        }
-    }
-
-    .buttons{
-    position: absolute;
-    width: 250px;
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 286px;
-    padding: 0 .5rem;
-
-    .plus{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            margin-top: .5rem;
-            color: #fff;
-            font-family: sans-serif;
-            font-size: .5rem;
-        }
-    }
-
-    .info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            margin-top: .5rem;
-            color: #fff;
-            font-family: sans-serif;
-            font-size: .5rem;
-        }
-    }
-    }
-
-
-    .cards{
-        padding: 0 .9rem;
-        position: absolute;
-        top:340px;
-        h5{
-            font-family: sans-serif;
-            color: white;
-        }
-
-        .movies{
-            margin-top: .5rem;
-            display: flex;
-            justify-content: space-between;
-
-            .c{
-                height: 100px;
-                width: 65px;
-                margin: 0 .25rem;
-                border-radius: 8px;
-                background-color: white;
-            }
-
-            .c1{
-                background-image: url("https://wallpapercave.com/wp/wp7150790.jpg");
-                background-size: cover;
-            }
-            .c2{
-                background-image: url("https://static.wikia.nocookie.net/13reasonswhy/images/5/5c/13_Reasons_Why_poster.jpg");
-                background-size: cover;
-            }
-            .c3{
-                background-image: url("https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg");
-                background-size: cover;
-            }
-
-
-        }
-    }
+}
+.card{
+    border-radius: 15px !important;
     
+}
+
+.card:hover{
+    background-color:#C9D8B6;
+    border: 1px solid #C9D8B6;
+}
+.bg-1{
+    background-color:#FFEEDB;
+    border-radius: 15px !important;
+}
+.bg-2{
+    background-color:#FFD8CC;
+    border-radius: 15px !important;
+}
+.bg-3{
+    background-color:#CEE5D0;
+    border-radius: 15px !important;
+}
+.fw-700{
+    font-weight: 700 !important;
+}
+.feedback img{
+    border-radius: 15px;
 }
